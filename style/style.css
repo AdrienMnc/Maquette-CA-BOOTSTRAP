@@ -1,0 +1,410 @@
+body{
+    margin-right: -5px;
+    
+}
+
+header{
+    
+    min-height: 100vh;
+    
+    background-image: url("../imageHeader.jpg");
+    filter: sepia(40%);
+    background-size: cover;
+    
+}
+
+.BienvenueAu h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 240px;
+    font-size: 38px;
+    text-shadow: 0 0 3px black;
+}
+
+.ClubAffaire h1{
+    background-color: hsl(191, 53%, 47%, 0.5) ;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 260px;
+}
+
+/* BARRE DE NAV BLEUE*/
+
+.marginRightZero{
+    margin-right: 0%;
+}
+
+#navBar{
+    background-color: #389DB4;
+    color: white;
+    
+}
+/* BOUTTON 1 */
+#bouttonUn{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 25px;
+}
+/* BOUTTON 2 */
+#bouttonDeux{
+    padding-top: 17px;
+    font-size: 20px;
+}
+/* BOUTTON 3 */
+#bouttonTrois{
+    padding-top: 17px;
+    font-size: 20px;
+}
+/* BOUTTON 4 */
+#bouttonQuatre{
+    padding-top: 17px;
+    font-size: 20px;
+}
+/* BOUTTON 5 */
+#bouttonCinq{
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+
+
+
+/* NAV QUI VA BOUGER BLANCHE */
+#navQuiBouge{
+    margin-top: 5%;
+    color: #389DB4;
+}
+
+#navQuiBouge .bouttonUn{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+#navQuiBouge .bouttonDeux{
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+#navQuiBouge .bouttonTrois{
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+#navQuiBouge .bouttonQuatre{
+    padding-top: 17px;
+    font-size: 20px;
+}
+
+
+
+/* GROSSE PARTIE MID AVEC FOND BLEU CADRE TEXTE ET PHOTO*/
+
+/* LE FOND BLEU */
+#blockCadrePhotoTexte{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #C7ECF6;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* LE CADRE ET TEXTE*/
+.cadreTexte {
+    background-color: #389DB4;
+    width: 470px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.cadreTexte p{
+    margin: auto;
+    color: white;
+    
+}
+
+/* CLUB AFFAIRE TEXTE EN ROTATION*/
+
+/* j'y arrive pas..
+.texteRotation{
+    background-color: #389DB4;
+    color: white;
+    padding: 0%;
+    position: relative;
+    top: 36px;
+    left: 249px;
+    width: 500px;
+    height: 500px;
+}
+*/
+
+.lespritRotation{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0%;
+}
+
+/* CADRE PHOTO */
+.cadrePhoto {
+    padding-right: 0px;
+}
+
+.cadrePhoto img{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+
+}
+
+
+
+/* LOW MID ENCADRE TEXTE AU MILIEU FOND BLEU FONCE*/
+
+.leFondBleuNosMembres{
+    background-color: #389DB4;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+.leFondBleuNosMembres p{
+    text-align: justify;
+    color: #ffff;
+}
+
+.encadrerTexteAll{
+    width: 0%;
+
+}
+
+.leTextChiant{
+    margin: 0%;
+    padding-top: 100px;
+    width: 331px;
+    
+}
+
+.texteRotationDeux{
+    width: auto;
+    padding: 0%;
+    color: white;
+    position: relative;
+    top: -124px;
+    left: -29px;
+    font-size: 25px;
+}
+
+.membres{
+    position: relative;
+    top: 12px;
+}
+
+.nos{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0%;
+    position: relative;
+    left: -14px;
+}
+
+.lesDeuxCadreBlanc{
+    display: flex;
+}
+
+.carreBlancNosMembresTop{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+}
+
+.carreBlancNosMembresLow{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+
+}
+
+
+/* LOGO GRIS AVEC FOND BLEU CLAIR*/
+
+#fondBleuLogoGris{
+    background-color: #C7ECF6;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+
+}
+
+.logoGris{
+    background-color: rgb(72, 72, 72);
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 35%;
+    text-align: center;
+    padding: 45px;
+    font-size: 30px;
+}
+
+
+
+
+/* IMAGE QUI VA BOUGER AVEC TEXTE*/
+
+#ImageQuiBouge{
+    background-image: url("../student-849826_1920.png");
+    min-height: 100vh;
+    background-size: cover;
+    
+}
+
+
+.texteImageQuiBouge{
+    background-color: #389DB4;
+    color: #ffff;
+    position: relative;
+    top: 32vh;
+    right: 12px;
+    
+}
+
+
+/* FORMULAIRE */
+
+#leFormulaire{
+    margin-top: 50px;
+}
+
+.formulaire{
+
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+.formulaire input[type=text]{
+
+  min-width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+
+}
+
+.formulaire input[type=email]{
+
+    min-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+
+}
+
+.formulaire input[type=tel]{
+
+    min-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+
+}
+
+#entreprise{
+    padding-right: 630px;
+}
+
+.selection{
+    margin-top: 50px;
+    margin-right: 650px;
+    font-size: 13px;
+}
+
+#choixMultiple{
+    min-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    outline-style: none;
+    outline: 1px solid #fff;
+    outline-offset: -1px;
+  
+}
+
+#message{
+    padding-right: 630px;
+}
+
+
+.boutton{
+    background-color: #389DB4;
+    color:#fff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 21px;
+    border: none;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: #389DB4;
+    margin-top: 5vh;
+    color: #fff;
+}
+
+.carreUN p{
+    margin-bottom: 0%;
+}
+
+.carreDeux p{
+    margin-bottom: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+.carreTrois p{
+    margin-bottom: 0%;
+    font-size: 20px;
+}
+
+.carreQuatre p{
+    margin-bottom: 0%;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
